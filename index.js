@@ -4,7 +4,7 @@ var http = require('http'),
     express=require('express')
 
 var port = process.env.PORT || 8000,
-    proxyURL = process.env.PROXY_URL || 'http://playminigames.ru/en/embed/the-yukon-trail/:80',
+    proxyURL = process.env.PROXY_URL || 'http://demo-opensource.rammerhead.org/:80',
     allowOrigin = process.env.ALLOW_ORIGIN || '*',
     allowMethods = process.env.ALLOW_METHODS || '*',
     allowHeaders = process.env.ALLOW_HEADERS || 'X-Requested-With'
